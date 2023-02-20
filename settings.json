@@ -1,0 +1,46 @@
+{
+  // Breadcrumbs
+  "breadcrumbs.symbolPath": "off",
+
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontFamily": "Input Mono, monospace",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.tabSize": 2,
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Terminal
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "Inconsolata-g for Powerline",
+
+  // Workbench
+  "workbench.colorTheme": "Nord Aurora Darker",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.iconTheme": "file-icons",
+  "workbench.productIconTheme": "icons-carbon",
+
+  // Extensions
+  "eslint.validate": ["javascript", "vue"],
+  "formattingToggle.affects": ["editor.formatOnSave"],
+  "git.confirmSync": false,
+  "gitlens.views.branches.branches.layout": "list",
+  "gitlens.views.remotes.branches.layout": "list",
+  "prettier.requireConfig": true,
+  "vite.autoStart": false
+}
